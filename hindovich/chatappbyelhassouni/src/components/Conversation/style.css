@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Montserrat:wght@300&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    padding:25px 40px 15px 70px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+
+}
+.header h1{
+    font-size: 24pt;
+    margin-left: 50px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.header img{
+    width: 80px;
+    border: 1px solid  rgb(139, 139, 139);
+    border-radius: 100px;
+  
+}
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24pt;
+    padding:25px 40px 15px 70px; 
+    margin-top:20px;
+
+
+    
+}
+.messages{
+   height: 700px;
+   padding: 15px;
+   overflow-y: scroll;
+}
+.send button{
+    font-size: 17pt;
+    margin-left: 25px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Gabarito', sans-serif;
+}
+.send textarea{
+    font-size: 23pt;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.moi{
+    display: flex;
+    justify-content: flex-end;
+}
+.il{
+    display: flex;
+    justify-content: flex-start;
+}
+.moi h1{
+    color: white;
+    font-size: 17pt;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 5px 25px 5px 25px;
+    
+    background-color: rgb(22, 96, 255);
+}
+
+.il h1{
+    color: rgb(24, 24, 24);
+    font-size: 17pt;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 5px 25px 5px 25px;
+    
+    background-color: rgb(185, 185, 185);
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24pt;
+    padding:0px 5px 15px 5px; 
+    margin-top:20px;
+
+
+    
+}
+
+
+}

@@ -1,0 +1,32 @@
+.collapse{
+    display: flex;
+    justify-content:space-around;
+}
+nav img{
+    width: 185px;
+    height: 75px;
+    object-fit: contain;
+    border-radius: 80px;
+    }
+    
+
+    .nav-link img{
+        width:  80px;
+        height: 80px;
+        border: 1px solid bisque;
+        border-radius: 100%;
+    }
+
+    .nav-link {
+  font-size: 17pt;
+    }
+
+
+    .nav-item{
+        margin-left: 15%;
+    }
+
+    .navbar-nav{
+        display: flex;
+        align-items: center;
+    }

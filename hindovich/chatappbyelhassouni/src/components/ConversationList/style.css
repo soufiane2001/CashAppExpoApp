@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Montserrat:wght@300&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    padding:25px 40px 15px 70px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+
+}
+.header h1{
+    font-size: 24pt;
+    margin-left: 50px;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.header img{
+    width: 80px;
+    border: 1px solid  rgb(139, 139, 139);
+    border-radius: 100px;
+  
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+}
+.user h2{
+    font-size: 20pt;
+    margin-left: 50px;
+
+font-weight: 400;
+}
+.header:hover{
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
