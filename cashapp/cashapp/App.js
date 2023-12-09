@@ -61,7 +61,7 @@ export default function App() {
 
 
   return (
-    <ClerkProvider publishableKey={'pk_test_c3VyZS1yYWJiaXQtNzcuY2xlcmsuYWNjb3VudHMuZGV2JA'}>
+    <ClerkProvider publishableKey={''}>
 <NavigationContainer>
     <Stack.Navigator >
 
