@@ -194,7 +194,7 @@ if (status == 'granted') {
       
       setload('block')
     /*  var myHeaders = new Headers();
-      myHeaders.append("apikey", "TMlKq85q7lsDOKOrjKgEwShBgHdpuTiP");
+      myHeaders.append("apikey", "");
       
       var requestOptions = {
         method: 'GET',
@@ -263,7 +263,7 @@ if (status == 'granted') {
     };
 
     // Make a POST request using fetch
-    fetch('https://vision.googleapis.com/v1/images:annotate?key=AIzaSyA0kiTA_ejo3BDKvTGLvdJIhpcIsR87ZGs', {
+    fetch('https://vision.googleapis.com/v1/images:annotate?key=', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json', // Specify the content type
